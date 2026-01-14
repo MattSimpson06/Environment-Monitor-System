@@ -31,6 +31,7 @@ Software
 - Arduino IDE
 
 Project Structure
+- First Path
 - src/
 - >main/
 - >java/
@@ -40,9 +41,11 @@ Project Structure
 - >SerialReader.java
 - >OpenWeatherAPI.java
 - >ComfortMessages.java
+- Second Path
 - src/
 - >test/
 - >TempMonitorTests.java
+- Third Path
 - src/
 - >main/
 - >resources/

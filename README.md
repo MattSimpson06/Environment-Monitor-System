@@ -19,7 +19,7 @@ Technologies Used
 - Temperature and humidity sensor
 - Pressure sensor
 - USB serial connection
-- 
+  
 Software
 - Java 11
 - JavaFX
@@ -30,4 +30,18 @@ Software
 - JUnit
 - Arduino IDE
 
-  
+Project Structure
+  src/
+├── main/
+│   ├── java/
+│   │   ├── EnvironmentMonitorGUI.java
+│   │   ├── OverviewPanel.java
+│   │   ├── ChartPanel.java
+│   │   ├── SerialReader.java
+│   │   ├── OpenWeatherAPI.java
+│   │   └── ComfortMessages.java
+│   └── resources/
+└── test/
+    └── java/
+        └── TempMonitorTests.java
+

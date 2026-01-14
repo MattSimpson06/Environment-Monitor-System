@@ -42,6 +42,29 @@ Project Structure
 │   │   └── ComfortMessages.java
 │   └── resources/
 └── test/
-    └── java/
-        └── TempMonitorTests.java
+    └── TempMonitorTests.java
 
+How the System Works
+1) The Arduino reads temperature, humidity, and pressure from connected sensors.
+2) Sensor data is transmitted to the Java application via serial communication.
+3) The Java application retrieves outdoor weather data using the OpenWeather API.
+4) The JavaFX interface updates in real time to display:
+- Indoor sensor readings
+- Outdoor weather values
+- Time-series charts
+- Context-based comfort messages
+
+Testing
+Unit Tests are located in TempMonitorTests.java
+- which validate application logic and data handling
+
+Learning Outcomes
+- Implemented serial communication between embedded hardware and a desktop application
+- Integrated third-party APIs into a Java application
+- Designed a modular JavaFX GUI
+- Worked with real-time data visualization
+
+
+Author
+Matthew Simpson
+EECS 1021 – York University

@@ -31,19 +31,23 @@ Software
 - Arduino IDE
 
 Project Structure
-  src/
-├── main/
-│   ├── java/
-│   │   ├── EnvironmentMonitorGUI.java
-│   │   ├── OverviewPanel.java
-│   │   ├── ChartPanel.java
-│   │   ├── SerialReader.java
-│   │   ├── OpenWeatherAPI.java
-│   │   └── ComfortMessages.java
-│   └── resources/
-└── test/
-    └── TempMonitorTests.java
+- src/
+- >main/
+- >java/
+- >EnvironmentMonitorGUI.java
+- >OverviewPanel.java
+- >ChartPanel.java
+- >SerialReader.java
+- >OpenWeatherAPI.java
+- >ComfortMessages.java
+- src/
+- >test/
+- >TempMonitorTests.java
+- src/
+- >main/
+- >resources/
 
+  
 How the System Works
 1) The Arduino reads temperature, humidity, and pressure from connected sensors.
 2) Sensor data is transmitted to the Java application via serial communication.
@@ -66,5 +70,5 @@ Learning Outcomes
 
 
 Author
-Matthew Simpson
-EECS 1021 – York University
+- Matthew Simpson
+- EECS 1021 – York University

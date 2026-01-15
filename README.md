@@ -13,6 +13,10 @@ The system focuses on monitoring temperature, humidity, and pressure, presenting
 - Modular and object-oriented Java design
 - Unit testing with JUnit
 
+###Senor charts
+![Sensor Charts](screenshots/Temp Monitor Graphs.png)
+
+
 Technologies Used
 - Hardware
 - Arduino (Grove Beginner Kit)

@@ -61,6 +61,8 @@ How the System Works
 - Time-series charts
 - Context-based comfort messages
 
+  
+
 Testing
 Unit Tests are located in TempMonitorTests.java
 - which validate application logic and data handling
@@ -70,6 +72,7 @@ Learning Outcomes
 - Integrated third-party APIs into a Java application
 - Designed a modular JavaFX GUI
 - Worked with real-time data visualization
+- Applied unit testing (JUnit) to validate core application logic
 
 
 Author

@@ -13,9 +13,6 @@ The system focuses on monitoring temperature, humidity, and pressure, presenting
 - Modular and object-oriented Java design
 - Unit testing with JUnit
 
-###Sensor charts
-screenshots/Temp Monitor Graphs.png
-
 
 Technologies Used
 - Hardware
@@ -65,7 +62,7 @@ How the System Works
 - Time-series charts
 - Context-based comfort messages
 
-  
+  ## check screenshots folder for graphs: screenshots/Temp Monitor Graphs.png
 
 Testing
 Unit Tests are located in TempMonitorTests.java

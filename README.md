@@ -62,7 +62,7 @@ How the System Works
 - Time-series charts
 - Context-based comfort messages
 
-  ## check screenshots folder for graphs: screenshots/Temp Monitor Graphs.png
+  ## screenshots/Temp Monitor Graphs.png
 
 Testing
 Unit Tests are located in TempMonitorTests.java

@@ -81,7 +81,7 @@ public class SerialReader {
                         });
 
                     } catch (NumberFormatException e) {
-                        System.out.println("⚠️ Parse error: " + e.getMessage());
+                        System.out.println(" Parse error: " + e.getMessage());
                     }
                 }
             }

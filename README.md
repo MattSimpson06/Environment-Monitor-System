@@ -14,7 +14,7 @@ The system focuses on monitoring temperature, humidity, and pressure, presenting
 - Unit testing with JUnit
 
 ###Sensor charts
-![Sensor Charts](screenshots/Temp Monitor Graphs.png)
+screenshots/Temp Monitor Graphs.png
 
 
 Technologies Used

@@ -81,4 +81,5 @@ Unit Tests are located in TempMonitorTests.java
 
 ## Author
 - Matthew Simpson
+- Electrical Engineering Student
 - EECS 1021 – York University

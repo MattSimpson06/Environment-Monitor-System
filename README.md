@@ -73,10 +73,6 @@ The application is organized using a modular, object-oriented design where each 
 [![Temperature Monitoring Graphs](screenshots/Temp%20Monitor%20Graphs.png)](screenshots/Temp%20Monitor%20Graphs.png)
 
 
-## Testing
-Unit Tests are located in TempMonitorTests.java
-- which validate application logic and data handling
-
 ## Learning Outcomes
 - Implemented serial communication between embedded hardware and a desktop application
 - Integrated third-party APIs into a Java application

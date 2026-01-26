@@ -31,25 +31,31 @@ The system focuses on monitoring temperature, humidity, and pressure, presenting
 - JUnit
 - Arduino IDE
 
-## Project Structure
-- First Path
-- src/
-- >main/
-- >java/
-- >EnvironmentMonitorGUI.java
-- >OverviewPanel.java
-- >ChartPanel.java
-- >SerialReader.java
-- >OpenWeatherAPI.java
-- >ComfortMessages.java
-- Second Path
-- src/
-- >test/
-- >TempMonitorTests.java
-- Third Path
-- src/
-- >main/
-- >resources/
+## Core Classes
+
+The application is organized using a modular, object-oriented design where each class is responsible for a single, well-defined task.
+
+- **EnvironmentMonitorGUI**  
+  Main application entry point. Initializes the JavaFX window, manages layout, and coordinates interactions between all components.
+
+- **OverviewPanel**  
+  Displays summarized indoor and outdoor environmental data, allowing users to quickly compare conditions at a glance.
+
+- **ChartPanel**  
+  Handles real-time visualization of temperature, humidity, and pressure using JavaFX charts. Maintains time-series data and updates graphs dynamically.
+
+- **SerialReader**  
+  Manages serial communication between the Arduino and the Java application. Parses incoming sensor data and forwards it to the GUI for processing.
+
+- **OpenWeatherAPI**  
+  Fetches live outdoor weather data from the OpenWeather API using HTTP requests and JSON parsing.
+
+- **ComfortMessages**  
+  Generates context-aware messages based on comparisons between indoor sensor readings and outdoor weather conditions.
+
+- **TempMonitorTests**  
+  Contains JUnit test cases used to validate application logic and data handling.
+
 
   
 ## How the System Works

@@ -84,4 +84,4 @@ The application is organized using a modular, object-oriented design where each 
 ## Author
 - Matthew Simpson
 - Electrical Engineering Student
-- EECS 1021 – York University
+- York University
